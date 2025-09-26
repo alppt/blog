@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknoloji - Alp Türe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            border: 4px solid #000;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .video-description {
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: justify;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="site-logo">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span>ALP TÜRE BLOG</span>
+            </a>
+            <button class="hamburger-menu" aria-label="Menüyü aç/kapat">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+           
+        </nav>
+    </header>
+
+    <main>
+        <section id="teknoloji" class="section">
+            <div class="container">
+                <h1 class="video-title">Teknoloji Videoları</h1>
+
+                <div class="video-container">
+                    <iframe src="https://www.youtube-nocookie.com/embed/jGztGfRujSE" title="Liquid Glass Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <p class="video-description">
+                    Bu kısımda tasarım ve teknolojinin birleştiği noktalardan biri olan mobil işletim sistemlerinde Apple'ın iOS 26 ile duyurduğu son tasarım dili olan "Liquid Glass"ı anlattığı bir video eklemek istedim.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alp Türe İkinci Öğretim 2121032740</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotograf - Alp Türe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .section {
+            padding: 4rem 0;
+        }
+
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-text {
+            max-width: 800px;
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        /* Galeri stili */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #000;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="site-logo">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span>ALP TÜRE BLOG</span>
+            </a>
+            <button class="hamburger-menu" aria-label="Menüyü aç/kapat">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="fotograf" class="section">
+            <div class="container">
+                <h1>Fotoğraf Galerisi</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Bu bölümde çektiğim birkaç fotoğrafı paylaşmak istedim. Farklı mekanlardan seçilen fotoğrafları bir galeri oluşturarak ekledim.</p>
+                    </div>
+
+                    <div class="gallery">
+                        <img src="frankfurt1.jpg" alt="Frankfurt 1">
+                        <img src="bina.jpg" alt="Bina">
+                        <img src="frankfurt2.jpg" alt="Frankfurt 2">
+                        <img src="frankfurtcadde.jpg" alt="Frankfurt Cadde">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alp Türe İkinci Öğretim 2121032740</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
