@@ -1,6 +1,5 @@
 # blog
-# alp-ture-kisisel-blog
-# Kişisel Blog Web Sitesi
+Kişisel Blog Web Sitesi
 
 Bu proje Web Teknolojileri ve Proglama dersi projem için HTML, CSS ve JavaScript kullanılarak geliştirilmiş kişisel bir blog sitesidir.
 Menülerdeki sayfalara erişildiğinde ana sayfaya sitenin sol üstte bulunan logo ve başlık kısmının üzerine tekrar tıklanarak geri dönülebilir.
