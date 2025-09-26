@@ -9,5 +9,6 @@ Gömülü video "Teknoloji" menüsünden erişilebilir.
 
 ## Proje Adresi
 
-Web sitesi, aşağıdaki adreste yayınlanmaktadır: Domains:
-blog-beta-ebon-92.vercel.app
+Web sitesi, aşağıdaki adreste yayınlanmaktadır: Domain:
+[https://blog-beta-ebon-92.vercel.app](https://blog-beta-ebon-92.vercel.app)
+
