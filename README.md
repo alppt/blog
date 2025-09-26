@@ -1,4 +1,4 @@
-# blog
+# Blog
 Kişisel Blog Web Sitesi
 
 Bu proje Web Teknolojileri ve Proglama dersi projem için HTML, CSS ve JavaScript kullanılarak geliştirilmiş kişisel bir blog sitesidir.
